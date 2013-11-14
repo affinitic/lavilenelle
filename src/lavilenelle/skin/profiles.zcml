@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="lavillenelle.skin">
+
+    <genericsetup:registerProfile
+        name="default"
+        title="La chorale La Vilenelle Site"
+        directory="profiles/default"
+        description="Installs profile for La chorale La Vilenelle Site"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+      
+    <genericsetup:importStep
+        name="lavillenelle.skin.various"
+        title="lavillenelle: miscellaneous import steps"
+        description="Various import steps that are not handled by GS import/export handlers."
+        handler="lavilenelle.skin.setuphandlers.setupLaVillenelle">
+        <depends name="skins"/>
+    </genericsetup:importStep>
+
+</configure>

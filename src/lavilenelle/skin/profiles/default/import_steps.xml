@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="lavillenelle.skin.setup"
+               version="20120924-01"
+               handler="lavillenelle.skin.setuphandlers.setupLaVillenelle"
+               title="LaVillenelle : setup portal">
+    <dependency step="skins" />
+    <dependency step="workflows" />
+    Setup LaVillenelle portal.
+  </import-step>
+</import-steps>

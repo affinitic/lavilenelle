@@ -1,0 +1,5 @@
+<tal:favicon define="portal_url view/site_url">
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="++theme++lavillenelle.skin/images/favicon.ico" />
+</tal:favicon>
