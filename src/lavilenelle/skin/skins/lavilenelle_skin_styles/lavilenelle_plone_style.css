@@ -272,3 +272,8 @@ border-bottom:1px solid rgba(100,100,100,0.2);
 margin-bottom:10px;
 color:#888;
 }
+
+div#content.dialog-wrapper div#footer.row{
+background-color:transparent;
+}
+}
