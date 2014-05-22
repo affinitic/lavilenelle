@@ -104,14 +104,14 @@ margin:auto;
 
 
 /*** FOOTER ***/
-div#footer{
+footer{
 background-color:#310b08;
 min-height:280px;
 padding-top:20px;
 }
 
-div#footer div#info-footer,
-div#footer div#menu-footer{
+footer div#info-footer,
+footer div#menu-footer{
 float:left;
 width:200px;
 margin-left:2px;
@@ -119,48 +119,48 @@ margin-top:15px;
 padding:6px 4px;
 }
 
-div#footer div#menu-footer{
+footer div#menu-footer{
 border-left:1px solid #888;
 border-right:1px solid #888;
 }
 
-div#footer div#info-footer h5,
-div#footer div#menu-footer h5{
+footer div#info-footer h5,
+footer div#menu-footer h5{
 color:#888;
 letter-spacing:1px;
 padding-left:30px;
 }
 
 
-div#footer div#info-footer p{
+footer div#info-footer p{
 color:#888;
 padding-left:40px;
 font-size:0.7em;
 font-weight:normal;
 }
 
-div#footer div#menu-footer li{
+footer div#menu-footer li{
 display:block;
 padding-left:20px;
 }
 
-div#footer div#menu-footer div#navigation-footer dd.portletItem ul.navTree li.navTreeItem a.contenttype-folder {
+footer div#menu-footer div#navigation-footer dd.portletItem ul.navTree li.navTreeItem a.contenttype-folder {
 background: none;
 }
 
-div#footer div#menu-footer div#navigation-footer dd.portletItem ul.navTree li.navTreeItem a{
+footer div#menu-footer div#navigation-footer dd.portletItem ul.navTree li.navTreeItem a{
 line-height:normal;
 font-size:0.7em;
 font-weight:normal;
 color:#888 !important;
 }
 
-div#footer div#menu-footer div#navigation-footer dd.portletItem ul.navTree li.navTreeItem a:hover{
+footer div#menu-footer div#navigation-footer dd.portletItem ul.navTree li.navTreeItem a:hover{
 color:#bbb !important;
 }
 
 
-div#footer div#photo-footer{
+footer div#photo-footer{
 float:right;
 width:370px;
 height:240px;
@@ -168,11 +168,11 @@ margin-top:20px;
 margin-right:60px;
 }
 
-div#footer div#photo-footer ul.photo-liste{
+footer div#photo-footer ul.photo-liste{
 margin:0px auto;
 }
 
-div#footer div#photo-footer ul.photo-liste li{
+footer div#photo-footer ul.photo-liste li{
 margin:6px 4px;
 }
 
