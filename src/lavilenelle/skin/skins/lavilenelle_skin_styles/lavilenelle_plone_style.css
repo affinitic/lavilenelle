@@ -259,6 +259,18 @@ ul.navTree li.navTreeItem img{
 visibility:hidden;
 }
 
+/*** PORLET QUICKLOADER ***/
+dl.portlet.QuickUploadPortlet{
+border:2px solid #be9127;
+border-radius:12px;
+box-shadow:3px 3px 6px rgba(50,50,50,0.5);
+background-color:rgba(71,3,0, 0.3);
+}
+
+dl.portlet.QuickUploadPortlet dt.portletHeader{
+background-color:transparent;
+border-bottom:1px dotted #be9127;
+}
 
 /*** CONTENT ***/
 div#content{
