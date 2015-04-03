@@ -1,1 +1,6 @@
 buildout.cfg
+include
+bin/
+.mr.developer.cfg
+develop-eggs/
+part./
